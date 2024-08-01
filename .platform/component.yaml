@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "teste-hashi"
+  description: "Teste Hashicorp"
+  annotations:
+    github.com/project-slug: veecode-magalu/teste-hashi
+    github.com/workflows: terraform.yml,destroy.yml
+spec:
+  type: devops
+  lifecycle: development
+  owner: group:default/andre
